@@ -1,0 +1,40 @@
+tenomi-rover
+Copyright 2026 koh aiaida
+
+本リポジトリは、TENOMI の走行部（Rover）のアプリケーション層（app_rover）の
+ソースコードです。本リポジトリのソースコードは Apache License, Version 2.0
+（以下 "Apache-2.0"）の下で提供されます。ライセンス全文は同梱の LICENSE
+ファイルを参照してください。
+
+本リポジトリには、第三者のソースコードは含まれていません。
+
+--------------------------------------------------------------------------------
+
+本リポジトリに含まないもの
+
+ビルドには次のソフトウェアが必要ですが、いずれも本リポジトリには同梱して
+いません。それぞれの提供元から別途入手してください。
+
+1. μT-Kernel 3.0（micro:bit 版）
+   提供元: パーソナルメディア株式会社（以下 PMC）
+   入手元: https://www.t-engine4u.com/info/mbit/2.html（362_mbit_mtk3.zip）
+   PMC 配布の μT-Kernel 3.0（micro:bit 版）は、本リポジトリに同梱して
+   いません。利用にあたってはパーソナルメディア株式会社の配布条件に従って
+   ください。
+
+2. benus（BLE Nordic UART Service を μT-Kernel のデバイスドライバとして
+   扱うためのもの）
+   入手元: https://github.com/koh523/benus
+   ライセンス: Apache-2.0
+   benus は、Nordic Semiconductor ASA の SoftDevice S113 や nRF5 SDK など、
+   第三者のソフトウェアを同梱しています。これらのライセンス条件は、benus の
+   NOTICE ファイルを参照してください。
+
+--------------------------------------------------------------------------------
+
+商標について
+
+micro:bit は Micro:bit Educational Foundation の商標です。Bluetooth は
+Bluetooth SIG, Inc. の登録商標です。Nordic Semiconductor は Nordic
+Semiconductor ASA の商標です。その他の会社名・製品名は、各社の商標または
+登録商標です。

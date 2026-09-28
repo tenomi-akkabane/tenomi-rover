@@ -1,0 +1,40 @@
+tenomi-rover
+Copyright 2026 koh aiaida
+
+This repository contains the source code of the application layer (app_rover)
+of the Rover, the driving unit of TENOMI. The source code in this repository is
+provided under the Apache License, Version 2.0 (hereinafter "Apache-2.0").
+For the full license text, see the accompanying LICENSE file.
+
+This repository does not contain any third-party source code.
+
+--------------------------------------------------------------------------------
+
+Not included in this repository
+
+The following software is required to build, but none of it is included in
+this repository. Obtain each of them separately from its provider.
+
+1. μT-Kernel 3.0 (micro:bit version)
+   Provider: Personal Media Corporation (hereinafter PMC)
+   Source: https://www.t-engine4u.com/info/mbit/2.html (362_mbit_mtk3.zip)
+   The μT-Kernel 3.0 (micro:bit version) distributed by PMC is not included
+   in this repository. When using it, follow the distribution terms of
+   Personal Media Corporation.
+
+2. benus (makes the BLE Nordic UART Service available as a μT-Kernel device
+   driver)
+   Source: https://github.com/koh523/benus
+   License: Apache-2.0
+   benus contains third-party software, such as SoftDevice S113 and the
+   nRF5 SDK by Nordic Semiconductor ASA. For their license terms, see the
+   NOTICE file of benus.
+
+--------------------------------------------------------------------------------
+
+Trademarks
+
+micro:bit is a trademark of the Micro:bit Educational Foundation. Bluetooth is
+a registered trademark of Bluetooth SIG, Inc. Nordic Semiconductor is a
+trademark of Nordic Semiconductor ASA. Other company names and product names
+are trademarks or registered trademarks of their respective owners.
